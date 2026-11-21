@@ -13,6 +13,10 @@ def add_course(title):
     courses.append(title)
     print(f"Yangi kurs qo'shildi: {title}")
 
+def enroll_student(student_name, course_title):
+    enrollments.append({"student": student_name, "course": course_title})
+    print(f"{student_name} '{course_title}' kursiga yozildi.")
+
 if __name__ == "__main__":
     add_course("DevOps va Git")
     show_courses()
