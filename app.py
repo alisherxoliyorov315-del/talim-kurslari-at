@@ -17,6 +17,10 @@ def enroll_student(student_name, course_title):
     enrollments.append({"student": student_name, "course": course_title})
     print(f"{student_name} '{course_title}' kursiga yozildi.")
 
+def process_payment(student_name, amount):
+    payments.append({"student": student_name, "amount": amount})
+    print(f"{student_name} dan {amount} so'm to'lov qabul qilindi.")
+
 if __name__ == "__main__":
     add_course("DevOps va Git")
     enroll_student("Aliyev Vali", "DevOps va Git")
