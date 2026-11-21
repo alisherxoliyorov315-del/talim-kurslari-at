@@ -14,4 +14,5 @@ def add_course(title):
     print(f"Yangi kurs qo'shildi: {title}")
 
 if __name__ == "__main__":
+    add_course("DevOps va Git")
     show_courses()
