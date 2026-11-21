@@ -9,5 +9,9 @@ def show_courses():
     for i, c in enumerate(courses, 1):
         print(f"{i}. {c}")
 
+def add_course(title):
+    courses.append(title)
+    print(f"Yangi kurs qo'shildi: {title}")
+
 if __name__ == "__main__":
     show_courses()
