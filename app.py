@@ -1,4 +1,4 @@
-COURSE_DURATION_MONTHS = 3
+COURSE_DURATION_MONTHS = 4
 
 courses = ["Python Backend", "Frontend React", "Ma'lumotlar bazasi"]
 enrollments = []
