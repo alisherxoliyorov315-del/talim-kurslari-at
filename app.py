@@ -19,4 +19,5 @@ def enroll_student(student_name, course_title):
 
 if __name__ == "__main__":
     add_course("DevOps va Git")
+    enroll_student("Aliyev Vali", "DevOps va Git")
     show_courses()
