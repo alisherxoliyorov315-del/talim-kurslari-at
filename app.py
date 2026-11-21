@@ -24,4 +24,5 @@ def process_payment(student_name, amount):
 if __name__ == "__main__":
     add_course("DevOps va Git")
     enroll_student("Aliyev Vali", "DevOps va Git")
+    process_payment("Aliyev Vali", 850000)
     show_courses()
